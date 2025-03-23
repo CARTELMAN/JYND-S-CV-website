@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal CV - [Okey-Nduka Chukwujindu]</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button class="print-btn" onclick="window.print()"><i class="fas fa-print"></i> Print CV</button>
+    
+    <div class="container">
+        <header>
+            <!-- Replace with your photo -->
+            <img src="PPFCVWSTE.jpg" alt="Profile Photo" class="profile-img">
+            <h1>Okey-Nduka Chukwujindu Kauchechukwume</h1>
+            <p>WEB DEVELOPER, IT SURPPORT, VIDEOGRAPHER, VIDEO EDITOR, GHOST WRITER</p>
+
+        </header>
+
+        <div class="section contact-info">
+            <!-- Update with your contact details -->
+            <div><i class="fas fa-envelope"></i> chukwujindunduka@gmail.com</div>
+            <div><i class="fas fa-phone"></i> +2349038560751, +2347018461932</div>
+            <div><i class="fas fa-map-marker-alt"></i> Enugu, NIGERIA</div>
+            <div><i class="fab fa-linkedin"></i> www.linkedin.com/in/chukwujindu</div>
+            <div><i class="fab fa-github"></i> github.com/johndoe</div>
+        </div>
+
+        <div class="section">
+            <h2>Professional Summary</h2>
+            <p>Versatile multidisciplinary professional with 5+ years of experience blending technical expertise and creative vision. Specialize in delivering end-to-end digital solutions through a unique combination of skills: Visual Storytelling: Orchestrate impactful narratives as a videographer and video editor, producing 100+ polished projects from concept to final cut (music videos, event coverage, and social media content).
+               Technical Solutions: Engineer responsive websites and provide critical IT support, resolving 95% of technical issues within SLA windows for 50+ business clients Content Creation: Ghostwrite compelling copy and technical documentation for industry leaders, maintaining 100% client confidentiality across 200+ projects Cross-Functional Integration: Seamlessly merge web development expertise with video production workflows to create immersive digital experiences.</p>
+        </div>
+
+        <div class="section">
+            <h2>Work Experience</h2>
+            <div class="experience-item">
+                <h3>Senior Scoup & Co ltd - Accounting Firm</h3>
+                <p class="date">2021 - 2022</p>
+                <ul>
+                    <li>Served as temporal Secretory</li>
+                    <li>Achival Manager</li>
+                    <li>Created a suitable Environment for Board Meetings</li>
+                </ul>
+            </div>
+            <h2>Work Experience</h2>
+            <div class="experience-item">
+                <h3>History Teacher Grade 1-5 - NAOWA Model Nursery & Primary School-244 Recce Battalion Asabari Barracks(Saki-West LGA, Oyo State, Nigeria).</h3>
+                <p class="date">March 2024 - January 2025</p>
+                <ul>
+                    <li>Led development of enterprise SaaS platform</li>
+                    <li>Implemented CI/CD pipelines reducing deployment time by 40%</li>
+                    <li>Mentored junior developers and conducted code reviews</li>
+                </ul>
+            </div>
+            <!-- Add more experience items -->
+        </div>
+
+        <div class="section">
+            <h2>Education</h2>
+            <div class="education-item">
+                <h3>BA History and International Studies - University of Nigeria Nsukka</h3>
+                <p class="date">2017 - 2022</p>
+                
+                <h3>Genesis Tech Hub Virtual Proxy intern</h3>
+                <p class="date">2023</p>
+                
+                <h3>Digital Witch IT Surport</h3>
+                <p class="date">AUG, 2024.</p>
+
+                <h3>NYSC (National Youth Service Core)</h3>
+                <p class="date"> Feb 2024 - Feb 2025</p>
+
+                <h3>NAWE TECH SCHOOLs(Web Development & Cyber Security)</h3>
+                <p class="date"> Feb 2024 - Present</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Skills</h2>
+            <div class="skills">
+                <div class="skill-item">
+                    <h4>ICT Skils</h4>
+                    <p> AI Prompt Engineering, IT-Surpport, Web Development, Social Media Optimization, Reel Vrality Guru.</p>
+                </div>
+                
+                <div class="skill-item">
+                    <h4>Arts & Entertainment</h4>
+                    <p>Video Director, Song writer, Music Therapist/Enthusiast, Pageant Model.</p>
+                </div>
+                
+                <div class="skill-item">
+                    <h4>Leadership & Social Skills </h4>
+                    <p> Cousre Rep-Eementry Russian Course (Rus)101-204, Deparmental Laison Officer-SHISSN, Platoon Leader-NYSC-Iseyin(Camp), CLO-Barrack Coppers, President-NDLEA CDS Shaki West LGA, Ambasador-NDLEA Oyo State,Nigeria.</p>
+                </div>
+                
+                <div class="skill-item">
+                    <h4>Hobbies & Fun Skills </h4>
+                    <p> Chess, Basket Ball, 420.</p>
+                </div>
+                <!-- Add more skill items -->
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Projects</h2>
+            <div class="project-item">
+                <h3>E-commerce Platform</h3>
+                <p>Team UI/UX designer - Built a microservices-based platform handling 10k+ daily transactions</p>
+                <p>Technologies: Figma, React, Node.js, MongoDB, Docker</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Add any interactive features here
+        document.addEventListener('DOMContentLoaded', function() {
+            // Example: Add animation to skill items
+            const skills = document.querySelectorAll('.skill-item');
+            skills.forEach(skill => {
+                skill.style.transition = 'transform 0.3s ease';
+                skill.addEventListener('mouseenter', () => {
+                    skill.style.transform = 'translateY(-5px)';
+                });
+                skill.addEventListener('mouseleave', () => {
+                    skill.style.transform = 'none';
+                });
+            });
+        });
+    </script>
+</body>
+</html>
